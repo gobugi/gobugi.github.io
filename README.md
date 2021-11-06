@@ -1,1 +1,0 @@
-# gobugi.github.io
