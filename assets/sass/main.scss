@@ -129,11 +129,11 @@
 
 	a {
 		@include vendor('transition', 'color .2s ease-in-out');
-		color: #43B3E0;
+		color: orange;
 		text-decoration: underline;
 
 		&:hover {
-			color: #43bff0 !important;
+			color: rgb(255, 178, 34) !important;
 		}
 
 		img {
@@ -337,7 +337,7 @@
 
 			&:focus {
 				background: #fafafa;
-				box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
+				box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px rgb(255, 178, 34);
 			}
 		}
 
@@ -479,13 +479,13 @@
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: orange;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
 
 		&:hover {
-			background-color: #43bff0;
+			background-color: rgb(255, 178, 34);
 			color: #fff !important;
 		}
 

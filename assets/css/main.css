@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Source+Sans+Pro:wght@300;400;500;700;900&display=swap');
 
 /*
 	Miniport by HTML5 UP
@@ -98,11 +99,11 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: "Source Sans Pro", sans-serif;
 		line-height: 1.85em;
 		color: #888;
 		font-weight: 300;
-		font-size: 13pt;
+		font-size: 12pt;
 	}
 
 	a {
@@ -110,12 +111,12 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		color: orange;
 		text-decoration: underline;
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: rgb(255, 178, 34) !important;
 		}
 
 		a img {
@@ -174,7 +175,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 2.5em;
 		letter-spacing: -0.015em;
 	}
 
@@ -1542,7 +1543,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fafafa;
-			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
+			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px rgb(255, 178, 34);
 		}
 
 	form textarea {
@@ -1678,17 +1679,17 @@ input, select, textarea {
 		display: inline-block;
 		color: #fff !important;
 		text-decoration: none;
-		font-weight: 700;
+		font-weight: 500;
 		border: 0;
 		outline: 0;
 		cursor: pointer;
 		border-radius: 8px;
-		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
+		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
-		padding: 1em 2.35em 1em 2.35em;
-		font-size: 1.1em;
+		background-color: orange;
+		padding: 1em 1em 1em 1em;
+		font-size: 1.2em !important;
 		max-width: 24em;
 	}
 
@@ -1697,7 +1698,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: rgb(255, 178, 34);
 			color: #fff !important;
 		}
 
@@ -1990,7 +1991,7 @@ input, select, textarea {
 		background-image: url("images/bg.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
-		text-align: center;
+		text-align: left;
 	}
 
 		.wrapper.style1 {
@@ -2070,7 +2071,7 @@ input, select, textarea {
 			color: #fff;
 			text-decoration: none;
 			outline: 0;
-			font-weight: 600;
+			font-weight: 300;
 			border-radius: 8px;
 			color: #fff;
 			height: 2.5em;
