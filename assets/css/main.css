@@ -2479,14 +2479,15 @@ p>strong {
 }
 
 #resume-link {
-	color: #1f3b57;
+	color: #98E6C3 !important;
 	font-weight: 700;
 	text-decoration: underline !important;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 #resume-link:hover {
 	text-decoration: none !important;
+	color: #1f3b57 !important;
 }
 
 #email-link {
@@ -2498,6 +2499,7 @@ p>strong {
 
 #email-link:hover {
 	text-decoration: none !important;
+	color: #7eebba !important;
 }
 
 
