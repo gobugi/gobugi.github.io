@@ -129,11 +129,11 @@
 
 	a {
 		@include vendor('transition', 'color .2s ease-in-out');
-		color: orange;
+		color: #FFFE00;
 		text-decoration: underline;
 
 		&:hover {
-			color: rgb(255, 178, 34) !important;
+			color: rgb(152, 230, 195) !important;
 		}
 
 		img {
@@ -143,7 +143,7 @@
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #141414;
 	}
 
 	i, em {
@@ -169,7 +169,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #141414;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -195,6 +195,7 @@
 	h2 {
 		font-size: 2em;
 		letter-spacing: -0.015em;
+		color: rgba(0, 31, 63, 0.89) !important;
 	}
 
 	h3 {
@@ -311,7 +312,7 @@
 
 	form {
 		label {
-			color: #3e3e3e;
+			color: #141414;
 			font-weight: 700;
 			display: block;
 			margin: 0 0 0.5em 0;
@@ -337,7 +338,7 @@
 
 			&:focus {
 				background: #fafafa;
-				box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px rgb(255, 178, 34);
+				box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px rgb(152, 230, 195);
 			}
 		}
 
@@ -479,13 +480,13 @@
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: orange;
+		background-color: #FFFE00;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
 
 		&:hover {
-			background-color: rgb(255, 178, 34);
+			background-color: rgb(152, 230, 195);
 			color: #fff !important;
 		}
 
@@ -564,7 +565,7 @@
 					@include vendor('transition', 'background-color .2s ease-in-out');
 					background-color: #444;
 					border-radius: 6px;
-					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
+					box-shadow: inset 0px 0px 0px 1px #ADEFD1FF, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
 					display: block;
 					font-size: 26px;
@@ -727,7 +728,7 @@
 		}
 
 		&.featured {
-			color: #EA8A95;
+			color: #98E6C3;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -744,7 +745,7 @@
 		background-image: url('images/bg.png');
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
-		text-align: center;
+		text-align: left;
 
 		&.style1 {
 			background-image: none;
@@ -776,7 +777,7 @@
 				select,
 				textarea {
 					border: none;
-					background: #282828;
+					background: #ADEFD1FF;
 
 					&:focus {
 						background: #252525;
@@ -789,7 +790,7 @@
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #ADEFD1FF;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -842,7 +843,7 @@
 					margin-left: -0.75em;
 					border-left: solid 0.75em transparent;
 					border-right: solid 0.75em transparent;
-					border-top: solid 0.6em #282828;
+					border-top: solid 0.6em #ADEFD1FF;
 				}
 			}
 		}
@@ -946,7 +947,7 @@
 
 			.wrapper {
 				padding: 5em 0 5em 0;
-				text-align: center;
+				text-align: left;
 
 				&.style4 {
 					.row-special {
@@ -1131,7 +1132,7 @@
 
 			.wrapper {
 				padding: 3em 0;
-				text-align: center;
+				text-align: left;
 			}
 
 		/* Nav */

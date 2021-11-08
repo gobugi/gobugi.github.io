@@ -111,12 +111,12 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: orange;
+		color: #00203FFF
 		text-decoration: underline;
 	}
 
 		a:hover {
-			color: rgb(255, 178, 34) !important;
+			color: rgb(173, 239, 209) !important;
 		}
 
 		a img {
@@ -125,7 +125,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #141414;
 	}
 
 	i, em {
@@ -151,7 +151,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #141414;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -177,6 +177,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2.5em;
 		letter-spacing: -0.015em;
+		color: rgba(0, 31, 63, 0.89) !important;
 	}
 
 	h3 {
@@ -1509,7 +1510,7 @@ input, select, textarea {
 /* Form */
 
 	form label {
-		color: #3e3e3e;
+		color: #141414;
 		font-weight: 700;
 		display: block;
 		margin: 0 0 0.5em 0;
@@ -1543,7 +1544,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fafafa;
-			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px rgb(255, 178, 34);
+			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px rgb(152, 230, 195);
 		}
 
 	form textarea {
@@ -1666,10 +1667,10 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		/* background-image: url(""), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		background-image: url(""), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		background-image: url(""), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		background-image: url(""), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)); */
 		-moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
@@ -1677,7 +1678,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		color: #fff !important;
+		color: rgba(0, 31, 63, 0.698) !important;
 		text-decoration: none;
 		font-weight: 500;
 		border: 0;
@@ -1686,8 +1687,8 @@ input, select, textarea {
 		border-radius: 8px;
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0);
 		overflow: hidden;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: orange;
+		/* box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75); */
+		background-color: #ADEFD1FF;
 		padding: 1em 1em 1em 1em;
 		font-size: 1.2em !important;
 		max-width: 24em;
@@ -1698,8 +1699,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgb(255, 178, 34);
-			color: #fff !important;
+			background-color: rgb(152, 230, 195);
+			color: rgba(0, 31, 63, 0.89) !important;
 		}
 
 		input[type="button"]:active,
@@ -1807,7 +1808,7 @@ input, select, textarea {
 					transition: background-color .2s ease-in-out;
 					background-color: #444;
 					border-radius: 6px;
-					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
+					box-shadow: inset 0px 0px 0px 1px #ADEFD1FF, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
 					display: block;
 					font-size: 26px;
@@ -1833,7 +1834,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-linkedin-in {
-					background-color: #006599;
+					background-color: #ADEFD1FF;
 				}
 
 				ul.social li a.fa-tumblr {
@@ -1845,7 +1846,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-github {
-					background-color: #FAFAFA;
+					background-color: #ADEFD1FF;
 				}
 
 				ul.social li a.fa-rss {
@@ -1975,7 +1976,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #98E6C3 !important;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2024,7 +2025,7 @@ input, select, textarea {
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
 				border: none;
-				background: #282828;
+				background: #ADEFD1FF;
 			}
 
 				.wrapper.style4 form input[type=text]:focus,
@@ -2037,7 +2038,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #00203FFF;
 		text-align: right;
 		position: fixed;
 		left: 0;
@@ -2047,6 +2048,8 @@ input, select, textarea {
 		cursor: default;
 		height: 3.5em;
 		line-height: 3.5em;
+		font-family: Open Sans, Helvetica, sans-serif !important;
+		font-size: 1em !important;
 	}
 
 		#nav ul {
@@ -2073,7 +2076,6 @@ input, select, textarea {
 			outline: 0;
 			font-weight: 300;
 			border-radius: 8px;
-			color: #fff;
 			height: 2.5em;
 			line-height: 2.5em;
 			padding: 0 1.25em;
@@ -2097,7 +2099,7 @@ input, select, textarea {
 					margin-left: -0.75em;
 					border-left: solid 0.75em transparent;
 					border-right: solid 0.75em transparent;
-					border-top: solid 0.6em #282828;
+					border-top: solid 0.6em #ADEFD1FF;
 				}
 
 /* Articles */
@@ -2199,7 +2201,7 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 5em 0 5em 0;
-				text-align: center;
+				text-align: left;
 			}
 
 				.wrapper.style4 .row-special {
@@ -2384,7 +2386,7 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 0;
-				text-align: center;
+				text-align: left;
 			}
 
 		/* Nav */
@@ -2445,3 +2447,21 @@ input, select, textarea {
 					}
 
 	}
+
+
+#contact>div>header>h2 {
+	color: #ADEFD1FF !important
+}
+
+h1 {
+	color: rgba(0, 31, 63, 0.89) !important;
+}
+
+h1>strong {
+	color: rgba(0, 31, 63, 0.89) !important;
+}
+
+p>strong {
+	color: #888;
+	font-weight: 500 !important;
+}
