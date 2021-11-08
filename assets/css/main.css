@@ -2465,3 +2465,14 @@ p>strong {
 	color: #888;
 	font-weight: 500 !important;
 }
+
+#resume-link {
+	color: #1f3b57;
+	font-weight: 700;
+	text-decoration: underline !important;
+	font-size: 1.2em;
+}
+
+#resume-link:hover {
+	text-decoration: none !important;
+}
