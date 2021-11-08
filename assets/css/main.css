@@ -1853,6 +1853,10 @@ input, select, textarea {
 					background-color: #ADEFD1FF;
 				}
 
+				ul.social li a.fa-angellist {
+					background-color: #ADEFD1FF;
+				}
+
 				ul.social li a.fa-rss {
 					background-color: #F2600B;
 				}
@@ -2474,9 +2478,25 @@ p>strong {
 	color: #1f3b57;
 	font-weight: 700;
 	text-decoration: underline !important;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 #resume-link:hover {
 	text-decoration: none !important;
+}
+
+#email-link {
+	color: #98E6C3;
+	font-weight: 300;
+	text-decoration: underline !important;
+	font-size: 1.1em;
+}
+
+#email-link:hover {
+	text-decoration: none !important;
+}
+
+
+.github-repo {
+	color: #1f3b57;
 }
