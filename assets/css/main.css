@@ -2506,3 +2506,8 @@ p>strong {
 .github-repo {
 	color: #1f3b57 !important;
 }
+
+.github-repo:hover {
+	text-decoration: none !important;
+	color: #7eebba !important;
+}
