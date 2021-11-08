@@ -1857,6 +1857,10 @@ input, select, textarea {
 					background-color: #ADEFD1FF;
 				}
 
+				ul.social li a.fa-angellist:hover {
+					background-color: #ADEFD1FF !important;
+				}
+
 				ul.social li a.fa-rss {
 					background-color: #F2600B;
 				}
@@ -2486,7 +2490,7 @@ p>strong {
 }
 
 #email-link {
-	color: #98E6C3;
+	color: #98E6C3 !important;
 	font-weight: 300;
 	text-decoration: underline !important;
 	font-size: 1.1em;
@@ -2498,5 +2502,5 @@ p>strong {
 
 
 .github-repo {
-	color: #1f3b57;
+	color: #1f3b57 !important;
 }
