@@ -2479,7 +2479,7 @@ p>strong {
 }
 
 #resume-link {
-	color: #98E6C3 !important;
+	color: #1f3b57 !important;
 	font-weight: 700;
 	text-decoration: underline !important;
 	font-size: 1em;
@@ -2487,7 +2487,7 @@ p>strong {
 
 #resume-link:hover {
 	text-decoration: none !important;
-	color: #1f3b57 !important;
+	color: #98E6C3 !important;
 }
 
 #email-link {
